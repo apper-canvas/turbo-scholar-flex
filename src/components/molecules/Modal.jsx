@@ -2,9 +2,9 @@ import React, { useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import ApperIcon from "@/components/ApperIcon";
 import Button from "@/components/atoms/Button";
-import { cn } from "@/lib/utils";
+import { cn } from "@/utils/cn";
 
-const Modal = ({ 
+const Modal = ({
   isOpen, 
   onClose, 
   title, 
