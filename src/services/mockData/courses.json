@@ -1,0 +1,57 @@
+[
+  {
+    "Id": 1,
+    "name": "Computer Science Fundamentals",
+    "code": "CS 101",
+    "instructor": "Dr. Sarah Chen",
+    "schedule": "MWF 9:00-10:00 AM",
+    "credits": 3,
+    "color": "#4F46E5",
+    "semester": "Fall 2024",
+    "createdAt": "2024-01-15T08:00:00Z"
+  },
+  {
+    "Id": 2,
+    "name": "Calculus I",
+    "code": "MATH 151",
+    "instructor": "Prof. Michael Torres",
+    "schedule": "TTh 11:00 AM-12:30 PM",
+    "credits": 4,
+    "color": "#7C3AED",
+    "semester": "Fall 2024",
+    "createdAt": "2024-01-15T08:30:00Z"
+  },
+  {
+    "Id": 3,
+    "name": "English Composition",
+    "code": "ENG 102",
+    "instructor": "Dr. Emily Rodriguez",
+    "schedule": "MWF 2:00-3:00 PM",
+    "credits": 3,
+    "color": "#10B981",
+    "semester": "Fall 2024",
+    "createdAt": "2024-01-15T09:00:00Z"
+  },
+  {
+    "Id": 4,
+    "name": "Physics I",
+    "code": "PHYS 201",
+    "instructor": "Dr. James Wilson",
+    "schedule": "TTh 1:00-2:30 PM",
+    "credits": 4,
+    "color": "#F59E0B",
+    "semester": "Fall 2024",
+    "createdAt": "2024-01-15T09:30:00Z"
+  },
+  {
+    "Id": 5,
+    "name": "Introduction to Psychology",
+    "code": "PSYC 101",
+    "instructor": "Dr. Amanda Foster",
+    "schedule": "MW 3:30-4:45 PM",
+    "credits": 3,
+    "color": "#EF4444",
+    "semester": "Fall 2024",
+    "createdAt": "2024-01-15T10:00:00Z"
+  }
+]

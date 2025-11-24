@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 1,
+    "courseId": "1",
+    "assignmentId": "1",
+    "score": 95,
+    "maxScore": 100,
+    "weight": 15,
+    "category": "Quiz",
+    "date": "2024-02-15T23:59:00Z"
+  },
+  {
+    "Id": 2,
+    "courseId": "3",
+    "assignmentId": "5",
+    "score": 88,
+    "maxScore": 100,
+    "weight": 20,
+    "category": "Essay",
+    "date": "2024-02-25T23:59:00Z"
+  },
+  {
+    "Id": 3,
+    "courseId": "4",
+    "assignmentId": "8",
+    "score": 92,
+    "maxScore": 100,
+    "weight": 10,
+    "category": "Problem Set",
+    "date": "2024-02-18T23:59:00Z"
+  }
+]
