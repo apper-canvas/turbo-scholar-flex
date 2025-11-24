@@ -13,7 +13,7 @@ import Empty from "@/components/ui/Empty";
 import ApperIcon from "@/components/ApperIcon";
 import assignmentsService from "@/services/api/assignmentsService";
 import coursesService from "@/services/api/coursesService";
-import { format, isOverdue, isSameDay, parseISO } from "date-fns";
+import { format, isPast, isSameDay, parseISO } from "date-fns";
 
 const Assignments = () => {
   const [assignments, setAssignments] = useState([]);
@@ -189,8 +189,8 @@ const Assignments = () => {
     }
   };
 
-  const isAssignmentOverdue = (dueDate, status) => {
-    return status !== "completed" && isOverdue(new Date(dueDate));
+const isAssignmentOverdue = (dueDate, status) => {
+    return status !== "completed" && isPast(new Date(dueDate));
   };
 
   if (loading) return <Loading />;
