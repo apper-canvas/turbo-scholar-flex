@@ -21,8 +21,13 @@ import {
   addMonths, 
   subMonths,
   isToday,
-  isOverdue
+  isPast
 } from "date-fns";
+
+// Custom helper function to replace removed isOverdue from date-fns v4
+const isOverdue = (date) => {
+  return isPast(date);
+};
 
 const Calendar = () => {
   const [assignments, setAssignments] = useState([]);
